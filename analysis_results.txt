@@ -1,0 +1,131 @@
+Loading 2004 data...
+2004 data loaded: 189803 shots
+
+Loading 2024 data...
+2024 data loaded: 218701 shots
+
+============================================================
+ANALYSIS 1: 3-Point Attempts by Position (2004 vs 2024)
+============================================================
+
+--- 2004 Season ---
+Total 3PA: 35,493
+  Position G: 22,324 attempts (62.9%)
+  Position F: 12,610 attempts (35.5%)
+  Position C: 559 attempts (1.6%)
+
+--- 2024 Season ---
+Total 3PA: 86,355
+  Position G: 43,130 attempts (49.9%)
+  Position F: 36,122 attempts (41.8%)
+  Position C: 6,447 attempts (7.5%)
+
+--- Changes from 2004 to 2024 ---
+  Position G: +20,806 change (+93.2%)
+  Position F: +23,512 change (+186.5%)
+  Position C: +5,888 change (+1053.3%)
+
+============================================================
+ANALYSIS 2: 3-Point Percentage by Position (2004 vs 2024)
+============================================================
+
+--- 2004 Season ---
+  Position C: 150/559 = 26.8%
+  Position F: 4438/12610 = 35.2%
+  Position G: 7734/22324 = 34.6%
+
+--- 2024 Season ---
+  Position C: 2238/6447 = 34.7%
+  Position F: 13091/36122 = 36.2%
+  Position G: 16014/43130 = 37.1%
+  Position N: 236/656 = 36.0%
+
+--- 3P% Changes from 2004 to 2024 ---
+  Position C: 26.8% → 34.7% = +7.9% change
+  Position F: 35.2% → 36.2% = +1.0% change
+  Position G: 34.6% → 37.1% = +2.5% change
+  Position N: 0.0% → 36.0% = +36.0% change
+
+============================================================
+ANALYSIS 3: Shooting Bigs Analysis (Centers & Forwards)
+============================================================
+
+--- 2004 Season - Shooting Bigs ---
+Total bigs with 3PA: 46
+Bigs with ≥50 3PA: 1
+
+Top 10 Bigs by 3PA in 2004:
+   1. Dirk Nowitzki             (C): 290 attempts, 34.1%
+
+--- 2024 Season - Shooting Bigs ---
+Total bigs with 3PA: 77
+Bigs with ≥50 3PA: 33
+
+Top 10 Bigs by 3PA in 2024:
+   1. Naz Reid                  (C): 408 attempts, 41.4%
+   2. Brook Lopez               (C): 404 attempts, 36.6%
+   3. Victor Wembanyama         (C): 394 attempts, 32.5%
+   4. Jaren Jackson Jr.         (C): 366 attempts, 32.0%
+   5. Chet Holmgren             (C): 349 attempts, 37.0%
+   6. Myles Turner              (C): 324 attempts, 35.8%
+   7. Nikola Vucevic            (C): 313 attempts, 29.4%
+   8. Kristaps Porzingis        (C): 293 attempts, 37.5%
+   9. Al Horford                (C): 258 attempts, 41.9%
+  10. Duop Reath                (C): 245 attempts, 35.9%
+
+--- Comparison: 2004 vs 2024 ---
+Number of shooting bigs (≥50):
+  2004: 1
+  2024: 33
+  Change: +32
+
+Average 3PA per qualified big:
+  2004: 290.0
+  2024: 182.4
+  Change: -107.6
+
+============================================================
+STEPH CURRY INFLUENCE ANALYSIS
+============================================================
+
+Searching for Steph Curry...
+Steph Curry not found in 2004 data (as expected - he entered NBA in 2009)
+Steph Curry 2024: 357/876 (40.8%)
+
+============================================================
+OVERALL LEAGUE 3-POINT TRENDS
+============================================================
+
+--- League-wide Statistics ---
+2004 Season:
+  3PM: 12,322
+  3PA: 35,493
+  3P%: 34.7%
+
+2024 Season:
+  3PM: 31,579
+  3PA: 86,355
+  3P%: 36.6%
+
+--- Changes from 2004 to 2024 ---
+3PA Increase: +50,862 attempts (+143.3%)
+3P% Change: +1.9%
+
+============================================================
+POSITION-SPECIFIC IMPACT ANALYSIS
+============================================================
+
+--- Centers (Position C) ---
+2004: 559 attempts, 26.8%
+2024: 6,447 attempts, 34.7%
+Change: +5,888 attempts (+1053.3%), +7.9% accuracy
+
+--- Forwards (Position F) ---
+2004: 12,610 attempts, 35.2%
+2024: 36,122 attempts, 36.2%
+Change: +23,512 attempts (+186.5%), +1.0% accuracy
+
+--- Guards (Position G) ---
+2004: 22,324 attempts, 34.6%
+2024: 43,130 attempts, 37.1%
+Change: +20,806 attempts (+93.2%), +2.5% accuracy
