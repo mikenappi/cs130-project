@@ -12,7 +12,7 @@
 
 ## Data Preparation / Cleaning
 - **Removed header row** manually so the dataset begins with actual shot records.
-- **Split each line** using `.split(",")` when converting lines to Python lists.
+- **Split each line** using `.split(",")` when converting lines to Python lists. Standard practice for conversion of csv files.
 - **Standardized made/missed shots**:
   - Converted values in the `SHOT_MADE` column to uppercase.
   - Treated `"TRUE"` and `"1"` as made shots.
@@ -20,7 +20,7 @@
   - Used `POSITION_GROUP` to classify rows into `G`, `F`, `C`, or `U`(If unknown).
 - **Defined big-man shooters**:
   - Used the `POSITION` column to identify PFs and Cs.
-  - Filtered only players with **≥ 50 three-point attempts**.
+  - Filtered only players with **≥ 50 three-point attempts**. This minimized the number of shooting bigs in 2004, but if a player averages less than 1 3pt attempt every two games, they shouldn't be classified as a "Shooter".
 - **Filtered all 3PT attempts** using `SHOT_TYPE == "3PT Field Goal"`.
 - **Created dictionaries** for tracking made/attempted 3PT shots per:
   - Position group
@@ -46,10 +46,10 @@
 
 ## Limitations
 - **Position uncertainties**:
-  - Hybrid positions (F/C, G/F) may be classified inaccurately.
+  - Hybrid positions (F/C, G/F) are classified inaccurately. Players that float from position to position are classified as 'N' or 'U'.
 - **Era rules and pace not included**:
-  - The dataset does not include external basketball context that affects shooting trends.
+  - The dataset does not include external basketball context that affects shooting trends. Contextualizing the increase of overall offence is necessary to quantify Curry's influence too.
 - **Curry influence inferred, not measured**:
   - No column in the data explicitly connects Curry to league-wide changes, but it's assumed from significant evidence.
 - **Big-man classification may be imperfect**:
-  - Some modern stretch forwards/centers may not be listed purely as PF/C in the dataset.
+  - Some modern stretch forwards/centers may not be listed purely as PF/C in the dataset. Much like the first issue, I had to use the position groups to identify the players taking shots.
